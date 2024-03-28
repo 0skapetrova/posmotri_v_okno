@@ -11,6 +11,8 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
+  display: grid;
+  place-content: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -39,8 +41,6 @@ ol {
 
 .content {
   display: flex;
-  margin: 0 auto;
-  padding: 133px 30px;
   gap: 30px;
 }
 
